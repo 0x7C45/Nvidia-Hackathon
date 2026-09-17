@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "started_at": "2026-09-13T03:55:30.262782+00:00",
+  "requested_wall_seconds": 600.0,
+  "wall_seconds": 600.0002798330097,
+  "sim_seconds": 576.51,
+  "real_time_factor": 0.9608495518709633,
+  "neural_dt_ms": 0.1,
+  "observation_interval_ms": 10.0,
+  "observation_steps": 57651,
+  "neural_steps": 5765100,
+  "counts": {
+    "neurons": 166700,
+    "edges": 25582938,
+    "synaptic_contacts": 124177617
+  },
+  "learning": false,
+  "first_load": {
+    "graph_load_seconds": 0.06345220899675041,
+    "process_start_to_ready_seconds": 0.1901937920047203,
+    "rss_before_graph_bytes": 78626816,
+    "rss_after_graph_bytes": 357908480,
+    "peak_rss_after_graph_bytes": 357908480,
+    "sparse_index_and_weight_bytes": 205997112,
+    "graph_file_bytes": 250157214
+  },
+  "peak_rss_bytes": 364625920,
+  "last_rss_bytes": 206356480,
+  "swap_before_bytes": 551813120,
+  "swap_after_bytes": 543424512,
+  "sampled_peak_system_swap_bytes": 551813120,
+  "cpu_user_seconds": 596.48179288,
+  "cpu_system_seconds": 1.162122824,
+  "kernel_step_seconds_p50_p95_p99": [
+    0.00957462500082329,
+    0.016348771001503337,
+    0.019386020503588952
+  ],
+  "total_spikes": 263960357,
+  "upstream_commit": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+  "finite_neural_state": true,
+  "stimulus_schedule": "dark, bright, left, right; one simulated second each; full state persists",
+  "swap_measurement_scope": "system-wide, shared with other applications; sampled every 30 wall seconds and at endpoints"
+}

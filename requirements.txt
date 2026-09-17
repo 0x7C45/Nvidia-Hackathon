@@ -1,0 +1,7 @@
+# Neural-only dependencies, pinned to the selected upstream runtime.
+-r vendor/doomfly/requirements-neural.txt
+numba==0.61.2
+pillow==11.3.0
+pytest==8.4.2
+matplotlib==3.7.5
+psutil==7.0.0

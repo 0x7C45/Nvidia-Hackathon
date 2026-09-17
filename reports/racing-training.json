@@ -1,0 +1,110 @@
+{
+  "protocol": "docs/body-api.md",
+  "architecture": "11-18-5-tanh",
+  "source": "external-racing-control-network",
+  "malecns_learning_mode": "frozen",
+  "malecns_weights_updated": false,
+  "demonstration_count": 65000,
+  "seed": 71,
+  "generations": 12,
+  "rollout_seconds": 38,
+  "training_seeds": [
+    17,
+    31,
+    57
+  ],
+  "heldout_seeds": [
+    101,
+    211,
+    307
+  ],
+  "baseline": {
+    "reward": 176.77726063793975,
+    "distance": 1177.768375235267,
+    "offtrackSeconds": 0,
+    "collisions": 0,
+    "laps": 2.377073100170447
+  },
+  "trained": {
+    "reward": 197.0489634864413,
+    "distance": 1273.6175179353038,
+    "offtrackSeconds": 0,
+    "collisions": 0,
+    "laps": 2.570524056723039
+  },
+  "heldoutBefore": {
+    "reward": 158.0426392496513,
+    "distance": 1191.6843499936608,
+    "offtrackSeconds": 0,
+    "collisions": 0,
+    "laps": 2.405159513387494
+  },
+  "heldoutAfter": {
+    "reward": 176.2944016941548,
+    "distance": 1278.0800308028167,
+    "offtrackSeconds": 0,
+    "collisions": 0,
+    "laps": 2.5795306827452493
+  },
+  "memory_roundtrip": {
+    "reward": 176.2944016941548,
+    "distance": 1278.0800308028167,
+    "offtrackSeconds": 0,
+    "collisions": 0,
+    "laps": 2.5795306827452493
+  },
+  "history": [
+    {
+      "generation": 0,
+      "reward": 176.77726063793975
+    },
+    {
+      "generation": 1,
+      "reward": 187.18957500937552
+    },
+    {
+      "generation": 2,
+      "reward": 187.66184295117998
+    },
+    {
+      "generation": 3,
+      "reward": 188.20393279152213
+    },
+    {
+      "generation": 4,
+      "reward": 190.54694571972107
+    },
+    {
+      "generation": 5,
+      "reward": 191.73676418799053
+    },
+    {
+      "generation": 6,
+      "reward": 192.4544238797911
+    },
+    {
+      "generation": 7,
+      "reward": 192.7522242633762
+    },
+    {
+      "generation": 8,
+      "reward": 193.71977499130608
+    },
+    {
+      "generation": 9,
+      "reward": 194.14213385174278
+    },
+    {
+      "generation": 10,
+      "reward": 196.5107057569389
+    },
+    {
+      "generation": 11,
+      "reward": 197.0489634864413
+    },
+    {
+      "generation": 12,
+      "reward": 197.0489634864413
+    }
+  ]
+}

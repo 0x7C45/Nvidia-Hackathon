@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "protocol": "FLY2",
+  "full_graph_neurons": 166700,
+  "neural_step_ms": 0.1,
+  "window_ms": 100,
+  "reset_to_zero": true,
+  "pause_freezes_simulated_time": true,
+  "frames": [
+    {
+      "sequence": 515,
+      "sim_seconds": 0.1,
+      "all_166700_counts_identical": true,
+      "active_neurons": 9859,
+      "spikes": 64695,
+      "packet_bytes": 59182
+    },
+    {
+      "sequence": 516,
+      "sim_seconds": 0.2,
+      "all_166700_counts_identical": true,
+      "active_neurons": 9236,
+      "spikes": 63325,
+      "packet_bytes": 55444
+    },
+    {
+      "sequence": 517,
+      "sim_seconds": 0.3,
+      "all_166700_counts_identical": true,
+      "active_neurons": 9170,
+      "spikes": 63495,
+      "packet_bytes": 55048
+    },
+    {
+      "sequence": 518,
+      "sim_seconds": 0.4,
+      "all_166700_counts_identical": true,
+      "active_neurons": 9196,
+      "spikes": 63748,
+      "packet_bytes": 55204
+    },
+    {
+      "sequence": 519,
+      "sim_seconds": 0.5,
+      "all_166700_counts_identical": true,
+      "active_neurons": 9193,
+      "spikes": 67053,
+      "packet_bytes": 55186
+    }
+  ],
+  "native_kernel_unchanged": true
+}

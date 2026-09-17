@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "sim_seconds_per_model": 6,
+  "compared_observations": 600,
+  "neurons": 166700,
+  "all_spike_counts_and_states_identical": true,
+  "phase_step_wall_seconds": {
+    "none": {
+      "reference": 0.037918005022220314,
+      "candidate": 0.030674202906084247
+    },
+    "dark": {
+      "reference": 0.7934242979245028,
+      "candidate": 0.8074318769358797
+    },
+    "bright": {
+      "reference": 0.8281750421010656,
+      "candidate": 0.855798788004904
+    },
+    "left": {
+      "reference": 0.8263774949446088,
+      "candidate": 0.8496714169887127
+    },
+    "right": {
+      "reference": 0.8073690049350262,
+      "candidate": 0.8436765370424837
+    },
+    "pulse": {
+      "reference": 0.7781198310549371,
+      "candidate": 0.8063163730548695
+    }
+  },
+  "active_stimulus_speedup": 0.9689088191475874,
+  "adopted": false,
+  "reason": "No speed improvement under active stimuli; original native kernel retained."
+}

@@ -1,0 +1,17 @@
+{
+  "stage": "download",
+  "started_at": "2026-09-13T03:37:55.555920+00:00",
+  "wall_seconds": 347.25135745901207,
+  "peak_rss_bytes": 20840448,
+  "swap_before_bytes": 551813120,
+  "swap_after_bytes": 551813120,
+  "returncode": 1,
+  "command": [
+    "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "/Users/USER/TRUE \u5f00\u53d1/Fruit fly brain experiment/scripts/prepare.py",
+    "--internal-download"
+  ],
+  "log": "/Users/USER/TRUE \u5f00\u53d1/Fruit fly brain experiment/reports/logs/download-serial.log",
+  "interruption_reason": "Switched the weight-table transfer to eight resumable HTTP ranges; retained the downloaded prefix.",
+  "continued_by": "download.json"
+}

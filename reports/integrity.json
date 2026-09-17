@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "verified_at": "2026-09-13T03:53:08.739694+00:00",
+  "upstream_commit": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+  "counts": {
+    "neurons": 166700,
+    "edges": 25582938,
+    "synaptic_contacts": 124177617
+  },
+  "source_graph_accounting": {
+    "source_edge_rows": 151856684,
+    "retained_edge_rows": 25582938,
+    "excluded_edge_rows": 126273746,
+    "source_synaptic_contacts": 311833243,
+    "retained_synaptic_contacts": 124177617,
+    "excluded_synaptic_contacts": 187655626,
+    "retained_weight_one_edges": 10299701,
+    "retained_self_edges": 101
+  },
+  "excluded_object_counts": {
+    "unresolved_object": 33013,
+    "non_neuronal": 11864
+  },
+  "isolated_neurons_retained": 217,
+  "additional_edge_strength_threshold": null,
+  "upstream_filters": [
+    "Published pre/post synapse confidence threshold 0.5",
+    "Only annotated neuronal entries become simulation nodes; other segmentation objects remain in raw data"
+  ]
+}

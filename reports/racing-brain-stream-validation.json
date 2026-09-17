@@ -1,0 +1,22 @@
+{
+  "session_id": "a8d2c85b-0319-4a45-ae3c-cb609ae50eda",
+  "steps": 144,
+  "rewards": 144,
+  "graph_neurons": 166700,
+  "stream_step_match": true,
+  "active_neurons": 23549,
+  "spikes": 174220,
+  "sequence": 735,
+  "brain_seconds": 14.4,
+  "game_seconds": 14.399999999999782,
+  "input_windows": {
+    "body_left": 143,
+    "body_right": 143,
+    "nitro": 38,
+    "touch": 0
+  },
+  "reward_stimulus_windows": 7,
+  "reward_mapping_next_window_verified": true,
+  "all_frozen": true,
+  "last_event": "release"
+}

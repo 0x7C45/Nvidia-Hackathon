@@ -1,0 +1,330 @@
+{
+  "before": {
+    "time": 14.399999999999782,
+    "running": false,
+    "selectedId": 1,
+    "camera": "overview",
+    "flies": 4,
+    "cars": [
+      {
+        "id": 0,
+        "kind": "neural",
+        "s": 498.96588887137545,
+        "speed": 32.3986304246151,
+        "offset": -4.3106059789042845,
+        "reward": 68.4431238879257,
+        "lap": 1,
+        "components": {
+          "progress": 27.443123887925672,
+          "corner": 12,
+          "drift": 6,
+          "nitro": 3,
+          "lap": 20
+        }
+      },
+      {
+        "id": 1,
+        "kind": "neural",
+        "s": 465.74994917648536,
+        "speed": 33.78414869189368,
+        "offset": -1.8880585786416841,
+        "reward": 50.11624720470667,
+        "lap": 0,
+        "components": {
+          "progress": 25.616247204706703,
+          "corner": 12,
+          "drift": 8,
+          "nitro": 4.5
+        }
+      },
+      {
+        "id": 2,
+        "kind": "neural",
+        "s": 489.62041837507263,
+        "speed": 37.85153861091861,
+        "offset": -3.715888571956989,
+        "reward": 59.759123010628954,
+        "lap": 0,
+        "components": {
+          "progress": 27.259123010628965,
+          "corner": 12,
+          "drift": 8,
+          "nitro": 4.5,
+          "overtake": 8
+        }
+      },
+      {
+        "id": 3,
+        "kind": "neural",
+        "s": 459.02710174957707,
+        "speed": 32.82855629782128,
+        "offset": -1.7062655400369462,
+        "reward": 50.076490596226755,
+        "lap": 0,
+        "components": {
+          "progress": 25.576490596226744,
+          "corner": 12,
+          "drift": 8,
+          "nitro": 4.5
+        }
+      },
+      {
+        "id": 4,
+        "kind": "mechanical",
+        "s": 429.04287103154235,
+        "speed": 29.327727025010777,
+        "offset": -1.7280083698123867,
+        "reward": 43.75735790673486,
+        "lap": 0,
+        "components": {
+          "progress": 24.257357906734814,
+          "corner": 9,
+          "drift": 6,
+          "nitro": 4.5
+        }
+      }
+    ],
+    "generation": 36,
+    "appliedGeneration": 36,
+    "training": false,
+    "rendering": {
+      "calls": 248,
+      "triangles": 61090,
+      "fps": 0.04896961802473701,
+      "frames": 4089
+    },
+    "brain": {
+      "shown": false,
+      "inViewport": false,
+      "connected": false,
+      "owner": null,
+      "streamSequence": -1,
+      "simSeconds": 0,
+      "active": 0,
+      "spikes": 0,
+      "windowMs": 0,
+      "neurons": 166700,
+      "surfaceBatches": 3,
+      "packets": 146,
+      "packetBytes": 19688828,
+      "displayedActive": 0,
+      "displayedSpikes": 0,
+      "selected": null,
+      "onlyActive": false,
+      "metrics": {
+        "frames": 154,
+        "draw_calls": 4,
+        "fps": 0.9983028850923678,
+        "visible": false
+      },
+      "camera": [
+        30.543991088867188,
+        13.991973876953125,
+        null
+      ],
+      "regionVisibility": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "error": null
+    },
+    "body": {
+      "connected": false,
+      "busy": false,
+      "boundCar": null,
+      "mode": "observe",
+      "input": null,
+      "step": null,
+      "receipt": null,
+      "error": null,
+      "journal": "/api/v1/body/sessions/c0d4576f-85c0-4413-b8d8-f34cea257228/events"
+    },
+    "world": {
+      "x": 19,
+      "y": 163.5,
+      "width": 460,
+      "height": 438,
+      "top": 163.5,
+      "right": 479,
+      "bottom": 601.5,
+      "left": 19
+    },
+    "eye": {
+      "x": 495,
+      "y": 265.5,
+      "width": 328,
+      "height": 164,
+      "top": 265.5,
+      "right": 823,
+      "bottom": 429.5,
+      "left": 495
+    }
+  },
+  "after": {
+    "time": 14.399999999999782,
+    "running": false,
+    "selectedId": 1,
+    "camera": "overview",
+    "flies": 4,
+    "cars": [
+      {
+        "id": 0,
+        "kind": "neural",
+        "s": 498.96588887137545,
+        "speed": 32.3986304246151,
+        "offset": -4.3106059789042845,
+        "reward": 68.4431238879257,
+        "lap": 1,
+        "components": {
+          "progress": 27.443123887925672,
+          "corner": 12,
+          "drift": 6,
+          "nitro": 3,
+          "lap": 20
+        }
+      },
+      {
+        "id": 1,
+        "kind": "neural",
+        "s": 465.74994917648536,
+        "speed": 33.78414869189368,
+        "offset": -1.8880585786416841,
+        "reward": 50.11624720470667,
+        "lap": 0,
+        "components": {
+          "progress": 25.616247204706703,
+          "corner": 12,
+          "drift": 8,
+          "nitro": 4.5
+        }
+      },
+      {
+        "id": 2,
+        "kind": "neural",
+        "s": 489.62041837507263,
+        "speed": 37.85153861091861,
+        "offset": -3.715888571956989,
+        "reward": 59.759123010628954,
+        "lap": 0,
+        "components": {
+          "progress": 27.259123010628965,
+          "corner": 12,
+          "drift": 8,
+          "nitro": 4.5,
+          "overtake": 8
+        }
+      },
+      {
+        "id": 3,
+        "kind": "neural",
+        "s": 459.02710174957707,
+        "speed": 32.82855629782128,
+        "offset": -1.7062655400369462,
+        "reward": 50.076490596226755,
+        "lap": 0,
+        "components": {
+          "progress": 25.576490596226744,
+          "corner": 12,
+          "drift": 8,
+          "nitro": 4.5
+        }
+      },
+      {
+        "id": 4,
+        "kind": "mechanical",
+        "s": 429.04287103154235,
+        "speed": 29.327727025010777,
+        "offset": -1.7280083698123867,
+        "reward": 43.75735790673486,
+        "lap": 0,
+        "components": {
+          "progress": 24.257357906734814,
+          "corner": 9,
+          "drift": 6,
+          "nitro": 4.5
+        }
+      }
+    ],
+    "generation": 36,
+    "appliedGeneration": 36,
+    "training": false,
+    "rendering": {
+      "calls": 248,
+      "triangles": 61090,
+      "fps": 0.04896961802473701,
+      "frames": 4089
+    },
+    "brain": {
+      "shown": false,
+      "inViewport": false,
+      "connected": false,
+      "owner": null,
+      "streamSequence": -1,
+      "simSeconds": 0,
+      "active": 0,
+      "spikes": 0,
+      "windowMs": 0,
+      "neurons": 166700,
+      "surfaceBatches": 3,
+      "packets": 146,
+      "packetBytes": 19688828,
+      "displayedActive": 0,
+      "displayedSpikes": 0,
+      "selected": null,
+      "onlyActive": false,
+      "metrics": {
+        "frames": 154,
+        "draw_calls": 4,
+        "fps": 0,
+        "visible": false
+      },
+      "camera": [
+        30.543991088867188,
+        13.991973876953125,
+        null
+      ],
+      "regionVisibility": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "error": null
+    },
+    "body": {
+      "connected": false,
+      "busy": false,
+      "boundCar": null,
+      "mode": "observe",
+      "input": null,
+      "step": null,
+      "receipt": null,
+      "error": null,
+      "journal": "/api/v1/body/sessions/c0d4576f-85c0-4413-b8d8-f34cea257228/events"
+    },
+    "world": {
+      "x": 19,
+      "y": 163.5,
+      "width": 460,
+      "height": 438,
+      "top": 163.5,
+      "right": 479,
+      "bottom": 601.5,
+      "left": 19
+    },
+    "eye": {
+      "x": 495,
+      "y": 265.5,
+      "width": 328,
+      "height": 164,
+      "top": 265.5,
+      "right": 823,
+      "bottom": 429.5,
+      "left": 495
+    }
+  }
+}

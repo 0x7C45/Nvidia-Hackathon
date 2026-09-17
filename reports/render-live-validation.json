@@ -1,0 +1,118 @@
+{
+  "action": "Full graph running with pulse stimulus and automatic 3D rotation; all regions visible; no selected cell",
+  "samples": [
+    {
+      "state": {
+        "sim_seconds": 69.5,
+        "running": true,
+        "real_time_factor": 1.2289232863598643,
+        "rss_mib": 286.109375,
+        "mode": "pulse",
+        "packet_bytes": 46276
+      },
+      "views": [
+        {
+          "type": "view_metrics",
+          "frames": 6508,
+          "draw_calls": 4,
+          "fps": 60.02801307288661,
+          "visible": true,
+          "received_at_ms": 1789286976342.832
+        },
+        {
+          "type": "view_metrics",
+          "frames": 142,
+          "draw_calls": 4,
+          "fps": 12.002400480191424,
+          "visible": true,
+          "received_at_ms": 1789286976757.286
+        }
+      ]
+    },
+    {
+      "state": {
+        "sim_seconds": 71.5,
+        "running": true,
+        "real_time_factor": 1.227555088765704,
+        "rss_mib": 286.3125,
+        "mode": "pulse",
+        "packet_bytes": 46138
+      },
+      "views": [
+        {
+          "type": "view_metrics",
+          "frames": 6598,
+          "draw_calls": 4,
+          "fps": 59.97600959639976,
+          "visible": true,
+          "received_at_ms": 1789286977843.471
+        },
+        {
+          "type": "view_metrics",
+          "frames": 161,
+          "draw_calls": 4,
+          "fps": 12.664978002907782,
+          "visible": true,
+          "received_at_ms": 1789286978257.345
+        }
+      ]
+    },
+    {
+      "state": {
+        "sim_seconds": 73.5,
+        "running": true,
+        "real_time_factor": 1.2308078858554883,
+        "rss_mib": 286.34375,
+        "mode": "pulse",
+        "packet_bytes": 46480
+      },
+      "views": [
+        {
+          "type": "view_metrics",
+          "frames": 6688,
+          "draw_calls": 4,
+          "fps": 59.99600026629131,
+          "visible": true,
+          "received_at_ms": 1789286979343.455
+        },
+        {
+          "type": "view_metrics",
+          "frames": 179,
+          "draw_calls": 4,
+          "fps": 12.0,
+          "visible": true,
+          "received_at_ms": 1789286979757.3672
+        }
+      ]
+    },
+    {
+      "state": {
+        "sim_seconds": 75.5,
+        "running": true,
+        "real_time_factor": 1.2329948327282556,
+        "rss_mib": 286.390625,
+        "mode": "pulse",
+        "packet_bytes": 46396
+      },
+      "views": [
+        {
+          "type": "view_metrics",
+          "frames": 6778,
+          "draw_calls": 4,
+          "fps": 60.024009604199456,
+          "visible": true,
+          "received_at_ms": 1789286980842.906
+        },
+        {
+          "type": "view_metrics",
+          "frames": 198,
+          "draw_calls": 4,
+          "fps": 12.664133839923844,
+          "visible": true,
+          "received_at_ms": 1789286981257.7012
+        }
+      ]
+    }
+  ],
+  "note": "Two viewing clients were present; the continuously rotating view maintained about 60 FPS, while the other view rendered new neural windows on demand at about 12 FPS. Both subscribed to the same native simulation."
+}

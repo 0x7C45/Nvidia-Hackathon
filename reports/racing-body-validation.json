@@ -1,0 +1,28 @@
+{
+  "session_id": "14e2dc4d-79c0-4845-a050-9d1a1d68f3a1",
+  "journal": "experiments/body/14e2dc4d-79c0-4845-a050-9d1a1d68f3a1.jsonl",
+  "steps": 99,
+  "rewards": 99,
+  "ordered_reset_step_reward_release": true,
+  "world_seconds": 9.899999999999878,
+  "neural_seconds": 9.9,
+  "vision_shape": [
+    64,
+    32
+  ],
+  "first_frame_min_max": [
+    0.0025882459963823237,
+    0.965085190946403
+  ],
+  "distinct_frames": 49,
+  "weight_updates": 0,
+  "applied_to_weights": false,
+  "cumulative_reward": -15.740815311920695,
+  "observed_real_time_factor_range": [
+    1.0373435052022821,
+    1.1536198757596694
+  ],
+  "paused_step_index": 99,
+  "selected_car": 1,
+  "bound_car": 0
+}

@@ -1,0 +1,351 @@
+{
+  "graph_neurons": 166700,
+  "window_ms": 100,
+  "seed": 71,
+  "channels": [
+    {
+      "name": "body_left",
+      "neuron_ids": [
+        "800049",
+        "801379",
+        "802008",
+        "803457"
+      ],
+      "gain_mv": 30
+    },
+    {
+      "name": "body_right",
+      "neuron_ids": [
+        "801533",
+        "801960",
+        "801990",
+        "803325"
+      ],
+      "gain_mv": 30
+    },
+    {
+      "name": "nitro",
+      "neuron_ids": [
+        "24427",
+        "28875",
+        "29510",
+        "31229",
+        "32502",
+        "34432",
+        "34735",
+        "39291",
+        "40428",
+        "42875",
+        "43041",
+        "46542",
+        "47073",
+        "47264",
+        "47744",
+        "48696",
+        "49721",
+        "51454",
+        "51752",
+        "53097",
+        "55712",
+        "55905",
+        "56143",
+        "58084",
+        "58803",
+        "61865",
+        "67526",
+        "67946",
+        "74629",
+        "75948",
+        "76553",
+        "80418",
+        "88111",
+        "118190",
+        "812057",
+        "814392",
+        "140573562"
+      ],
+      "gain_mv": 30
+    },
+    {
+      "name": "touch",
+      "neuron_ids": [
+        "801756",
+        "802409",
+        "803150",
+        "804614",
+        "806696",
+        "904789"
+      ],
+      "gain_mv": 30
+    }
+  ],
+  "conditions": {
+    "dark": {
+      "active_neurons": 8634,
+      "spikes": 28519,
+      "target_spikes": {
+        "body_left": 0,
+        "body_right": 0,
+        "nitro": 0,
+        "touch": 0,
+        "retina": 0,
+        "reward": 0
+      },
+      "regions": [
+        {
+          "id": 0,
+          "active": 4,
+          "spikes": 8
+        },
+        {
+          "id": 1,
+          "active": 8603,
+          "spikes": 28457
+        },
+        {
+          "id": 2,
+          "active": 1,
+          "spikes": 1
+        },
+        {
+          "id": 3,
+          "active": 26,
+          "spikes": 53
+        },
+        {
+          "id": 4,
+          "active": 0,
+          "spikes": 0
+        }
+      ],
+      "learning": {
+        "mode": "frozen",
+        "enabled": false,
+        "weight_updates": 0
+      }
+    },
+    "vision": {
+      "active_neurons": 9876,
+      "spikes": 61401,
+      "target_spikes": {
+        "body_left": 0,
+        "body_right": 0,
+        "nitro": 0,
+        "touch": 0,
+        "retina": 40020,
+        "reward": 0
+      },
+      "regions": [
+        {
+          "id": 0,
+          "active": 2,
+          "spikes": 2
+        },
+        {
+          "id": 1,
+          "active": 9848,
+          "spikes": 61341
+        },
+        {
+          "id": 2,
+          "active": 3,
+          "spikes": 3
+        },
+        {
+          "id": 3,
+          "active": 23,
+          "spikes": 55
+        },
+        {
+          "id": 4,
+          "active": 0,
+          "spikes": 0
+        }
+      ],
+      "learning": {
+        "mode": "frozen",
+        "enabled": false,
+        "weight_updates": 0
+      }
+    },
+    "body": {
+      "active_neurons": 12938,
+      "spikes": 66407,
+      "target_spikes": {
+        "body_left": 25,
+        "body_right": 31,
+        "nitro": 0,
+        "touch": 0,
+        "retina": 40020,
+        "reward": 0
+      },
+      "regions": [
+        {
+          "id": 0,
+          "active": 1511,
+          "spikes": 2365
+        },
+        {
+          "id": 1,
+          "active": 9847,
+          "spikes": 61330
+        },
+        {
+          "id": 2,
+          "active": 1132,
+          "spikes": 1904
+        },
+        {
+          "id": 3,
+          "active": 448,
+          "spikes": 808
+        },
+        {
+          "id": 4,
+          "active": 0,
+          "spikes": 0
+        }
+      ],
+      "learning": {
+        "mode": "frozen",
+        "enabled": false,
+        "weight_updates": 0
+      }
+    },
+    "nitro": {
+      "active_neurons": 12664,
+      "spikes": 67107,
+      "target_spikes": {
+        "body_left": 0,
+        "body_right": 0,
+        "nitro": 490,
+        "touch": 0,
+        "retina": 40020,
+        "reward": 0
+      },
+      "regions": [
+        {
+          "id": 0,
+          "active": 1474,
+          "spikes": 2812
+        },
+        {
+          "id": 1,
+          "active": 9990,
+          "spikes": 61377
+        },
+        {
+          "id": 2,
+          "active": 698,
+          "spikes": 1509
+        },
+        {
+          "id": 3,
+          "active": 502,
+          "spikes": 1409
+        },
+        {
+          "id": 4,
+          "active": 0,
+          "spikes": 0
+        }
+      ],
+      "learning": {
+        "mode": "frozen",
+        "enabled": false,
+        "weight_updates": 0
+      }
+    },
+    "touch": {
+      "active_neurons": 13464,
+      "spikes": 67071,
+      "target_spikes": {
+        "body_left": 0,
+        "body_right": 0,
+        "nitro": 0,
+        "touch": 72,
+        "retina": 40020,
+        "reward": 0
+      },
+      "regions": [
+        {
+          "id": 0,
+          "active": 2136,
+          "spikes": 3168
+        },
+        {
+          "id": 1,
+          "active": 9878,
+          "spikes": 61282
+        },
+        {
+          "id": 2,
+          "active": 893,
+          "spikes": 1521
+        },
+        {
+          "id": 3,
+          "active": 557,
+          "spikes": 1100
+        },
+        {
+          "id": 4,
+          "active": 0,
+          "spikes": 0
+        }
+      ],
+      "learning": {
+        "mode": "frozen",
+        "enabled": false,
+        "weight_updates": 0
+      }
+    },
+    "reward": {
+      "active_neurons": 15219,
+      "spikes": 73861,
+      "target_spikes": {
+        "body_left": 0,
+        "body_right": 0,
+        "nitro": 0,
+        "touch": 0,
+        "retina": 40020,
+        "reward": 286
+      },
+      "regions": [
+        {
+          "id": 0,
+          "active": 3312,
+          "spikes": 7700
+        },
+        {
+          "id": 1,
+          "active": 9938,
+          "spikes": 61240
+        },
+        {
+          "id": 2,
+          "active": 1216,
+          "spikes": 2962
+        },
+        {
+          "id": 3,
+          "active": 753,
+          "spikes": 1959
+        },
+        {
+          "id": 4,
+          "active": 0,
+          "spikes": 0
+        }
+      ],
+      "learning": {
+        "mode": "frozen",
+        "enabled": false,
+        "weight_updates": 0
+      }
+    }
+  },
+  "weights_unchanged": true,
+  "reward_endpoint_changes_neural_state": false,
+  "reward_response_requires_explicit_sugar_observation": true
+}

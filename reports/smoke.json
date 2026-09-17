@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "started_at": "2026-09-13T03:54:19.534316+00:00",
+  "upstream_commit": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+  "counts": {
+    "neurons": 166700,
+    "edges": 25582938,
+    "synaptic_contacts": 124177617
+  },
+  "neural_dt_ms": 0.1,
+  "observation_interval_ms": 10.0,
+  "learning": false,
+  "tests": {
+    "no_external_drive_is_quiet": true,
+    "bright_activates_retinal_input": true,
+    "light_changes_downstream_activity": true,
+    "left_right_change_downstream_activity": true,
+    "repeat_all_neurons_all_bins_and_final_v_g_equal": true,
+    "finite_neural_state_every_observation": true
+  },
+  "trials": [
+    {
+      "condition": "no_drive",
+      "sim_seconds": 2.0,
+      "wall_seconds_excluding_load": 0.13793141700443812,
+      "total_spikes": 0,
+      "retinal_spikes": 0,
+      "downstream_spikes": 0,
+      "neurons_that_fired": 0,
+      "graph_load_seconds": 0.07617666700389236
+    },
+    {
+      "condition": "dark",
+      "sim_seconds": 2.0,
+      "wall_seconds_excluding_load": 1.6214374999981374,
+      "total_spikes": 536242,
+      "retinal_spikes": 0,
+      "downstream_spikes": 76667,
+      "neurons_that_fired": 8657,
+      "graph_load_seconds": 0.04533358399930876
+    },
+    {
+      "condition": "bright",
+      "sim_seconds": 2.0,
+      "wall_seconds_excluding_load": 1.6527392499992857,
+      "total_spikes": 1282888,
+      "retinal_spikes": 877103,
+      "downstream_spikes": 68046,
+      "neurons_that_fired": 9926,
+      "graph_load_seconds": 0.04641175000870135
+    },
+    {
+      "condition": "left",
+      "sim_seconds": 2.0,
+      "wall_seconds_excluding_load": 1.6013169590005418,
+      "total_spikes": 789441,
+      "retinal_spikes": 301922,
+      "downstream_spikes": 73833,
+      "neurons_that_fired": 9074,
+      "graph_load_seconds": 0.04386850001174025
+    },
+    {
+      "condition": "right",
+      "sim_seconds": 2.0,
+      "wall_seconds_excluding_load": 1.6157968329935102,
+      "total_spikes": 1031310,
+      "retinal_spikes": 575181,
+      "downstream_spikes": 71309,
+      "neurons_that_fired": 9520,
+      "graph_load_seconds": 0.044058125000447035
+    },
+    {
+      "condition": "bright_repeat",
+      "sim_seconds": 2.0,
+      "wall_seconds_excluding_load": 1.7100277089921292,
+      "total_spikes": 1282888,
+      "retinal_spikes": 877103,
+      "downstream_spikes": 68046,
+      "neurons_that_fired": 9926,
+      "graph_load_seconds": 0.0437972919899039
+    }
+  ],
+  "changed_downstream_neurons_bright_vs_dark": 1306,
+  "changed_downstream_neurons_left_vs_right": 1309,
+  "first_load": {
+    "graph_load_seconds": 0.07617666700389236,
+    "process_start_to_ready_seconds": 0.8316373330017086,
+    "rss_before_graph_bytes": 78970880,
+    "rss_after_graph_bytes": 358678528,
+    "peak_rss_after_graph_bytes": 358678528,
+    "sparse_index_and_weight_bytes": 205997112,
+    "graph_file_bytes": 250157214
+  },
+  "wall_seconds": 9.372633874998428,
+  "peak_rss_bytes": 521814016,
+  "swap_before_bytes": 551813120,
+  "swap_after_bytes": 551813120,
+  "stimulus_definition": "no_drive: zero retinal and lamina drive; dark: zero retinal with upstream 12 mV lamina drive; bright/left/right: upstream inferred visual field at luminance 0 or 1, same lamina drive; each trial resets all neural state"
+}

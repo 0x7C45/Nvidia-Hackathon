@@ -1,0 +1,28 @@
+✔ shared FLY2 sparse decoder preserves actual IDs, counts and neural clock (2.122834ms)
+✔ shared decoder preserves zero entries and uint16 spikes in dense and legacy frames (0.219291ms)
+✔ mismatched or damaged frames never become fictional neural activity (0.454417ms)
+✔ track is closed, distance-parametrized and has signed right-facing normals (1.490291ms)
+✔ 2 independent neural racers and one mechanical racer finish the race (8.4515ms)
+✔ 3 independent neural racers and one mechanical racer finish the race (5.612542ms)
+✔ 4 independent neural racers and one mechanical racer finish the race (5.944ms)
+✔ nitro and drift buttons at rest cannot farm rewards (0.462459ms)
+✔ laps require crossing the finish line and cannot be repaid by recrossing it (0.082083ms)
+✔ leaving the road produces a penalty and prevents progress farming (0.075834ms)
+✔ a clean pass rewards once with hysteresis, contact does not reward a pass (0.132667ms)
+✔ physics is deterministic and rejects inconsistent step sizes (2.107917ms)
+✔ reward optimization updates real weights and improves held-out driving (637.392958ms)
+✔ exported and reloaded memory retains identical decisions (0.676708ms)
+✔ malformed memory is rejected before it can poison saved policy or the renderer (0.114334ms)
+✔ Body bridge waits for neural action, advances exactly 100 ms, rewards then releases (44.98725ms)
+✔ RGBA retinal conversion flips WebGL rows and linearizes sRGB (0.721042ms)
+✔ slow observation never advances or stalls the game and retains rewards and short sensory events (136.78975ms)
+✔ an observer flushes the finish reward without advancing the finished world (122.194875ms)
+✔ body sensors use actual movement and events; dense progress does not continually stimulate reward (0.173209ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 758.864875

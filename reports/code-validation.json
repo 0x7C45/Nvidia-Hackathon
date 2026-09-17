@@ -1,0 +1,8 @@
+{
+  "type_check": "Success: no issues found in 3 source files",
+  "lint": "All checks passed!",
+  "format": "All done! ✨ 🍰 ✨\n3 files would be left unchanged.",
+  "dependency_check": "No broken requirements found.",
+  "numerical_test_summary": "15 passed, 62 warnings in 38.20s",
+  "scope": "Local launcher checks plus upstream connectome and Brian2 reference tests; full-graph stimulus evidence is in smoke.json."
+}

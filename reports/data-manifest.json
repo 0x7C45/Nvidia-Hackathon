@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-09-13T03:52:00.042434+00:00",
+  "release": "MaleCNS v1.0",
+  "files": [
+    {
+      "filename": "annotations.feather",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 14483314,
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "wall_seconds_including_verification": 0.006675333992461674,
+      "reused": true
+    },
+    {
+      "filename": "neurotransmitters.feather",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+      "bytes": 43282834,
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+      "wall_seconds_including_verification": 0.019704749996890314,
+      "reused": true
+    },
+    {
+      "filename": "edges.feather",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 1051241946,
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+      "wall_seconds_including_verification": 497.0044214170048,
+      "reused": false
+    }
+  ],
+  "total_bytes": 1109008094,
+  "checksum_source": "nftechie/doomfly@71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33"
+}

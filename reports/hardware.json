@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-09-13T03:44:46.825636+00:00",
+  "model": "MacBook Air",
+  "model_identifier": "Mac16,12",
+  "chip": "Apple M4",
+  "architecture": "arm64",
+  "cpu_cores": 10,
+  "gpu_cores": 8,
+  "memory_bytes": 17179869184,
+  "macos": "27.0",
+  "python": "3.11.16",
+  "disk": {
+    "total": 245107195904,
+    "used": 170752786432,
+    "free": 74354409472
+  }
+}

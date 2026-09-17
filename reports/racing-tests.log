@@ -1,0 +1,22 @@
+✔ track is closed, distance-parametrized and has signed right-facing normals (1.218083ms)
+✔ 2 independent neural racers and one mechanical racer finish the race (8.306875ms)
+✔ 3 independent neural racers and one mechanical racer finish the race (5.202125ms)
+✔ 4 independent neural racers and one mechanical racer finish the race (5.803667ms)
+✔ nitro and drift buttons at rest cannot farm rewards (0.462875ms)
+✔ laps require crossing the finish line and cannot be repaid by recrossing it (0.075459ms)
+✔ leaving the road produces a penalty and prevents progress farming (0.079416ms)
+✔ a clean pass rewards once with hysteresis, contact does not reward a pass (0.136959ms)
+✔ physics is deterministic and rejects inconsistent step sizes (2.070042ms)
+✔ reward optimization updates real weights and improves held-out driving (587.690708ms)
+✔ exported and reloaded memory retains identical decisions (0.614125ms)
+✔ malformed memory is rejected before it can poison saved policy or the renderer (0.120667ms)
+✔ Body bridge waits for neural action, advances exactly 100 ms, rewards then releases (40.433666ms)
+✔ RGBA retinal conversion flips WebGL rows and linearizes sRGB (0.30375ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 704.634625

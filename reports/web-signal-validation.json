@@ -1,0 +1,21 @@
+{
+  "pause_freezes_published_neural_time": true,
+  "reset_returns_to_zero": true,
+  "all_166700_streamed_counts_equal_native_reference": true,
+  "compared_sim_seconds": 0.1,
+  "compared_window_ms": 100.0,
+  "frame_spikes": 64695,
+  "frame_active": 9859,
+  "all_active_cells_spatially_located": true,
+  "selected_neuron_has_real_position": true,
+  "official_skeleton_loaded": true,
+  "skeleton_body_id": "185827",
+  "skeleton_vertices": 14,
+  "skeleton_edges": 13,
+  "out_of_range_control_rejected": true,
+  "restored_controls": {
+    "mode": "pulse",
+    "intensity": 1.0,
+    "running": true
+  }
+}

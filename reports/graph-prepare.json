@@ -1,0 +1,15 @@
+{
+  "stage": "graph-prepare",
+  "started_at": "2026-09-13T03:53:05.661008+00:00",
+  "wall_seconds": 3.074838707994786,
+  "peak_rss_bytes": 1888600064,
+  "swap_before_bytes": 551813120,
+  "swap_after_bytes": 551813120,
+  "returncode": 0,
+  "command": [
+    "/Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/bin/python",
+    "-m",
+    "doom.prepare"
+  ],
+  "log": "/Users/USER/TRUE 开发/Fruit fly brain experiment/reports/logs/graph-prepare.log"
+}

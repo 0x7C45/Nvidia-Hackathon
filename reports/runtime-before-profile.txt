@@ -1,0 +1,28 @@
+         56403 function calls (55201 primitive calls) in 4.362 seconds
+
+   Ordered by: internal time
+   List reduced from 91 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      501    4.151    0.008    4.203    0.008 /Users/USER/TRUE 开发/Fruit fly brain experiment/vendor/doomfly/doom/native.py:21(step)
+       50    0.093    0.002    0.096    0.002 /Users/USER/TRUE 开发/Fruit fly brain experiment/scripts/web_server.py:213(<listcomp>)
+        1    0.033    0.033    4.366    4.366 /Users/USER/TRUE 开发/Fruit fly brain experiment/scripts/web_server.py:256(_run)
+     1502    0.023    0.000    0.023    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+       50    0.010    0.000    0.010    0.000 {method 'nonzero' of 'numpy.ndarray' objects}
+     1553    0.007    0.000    0.007    0.000 {method 'fill' of 'numpy.ndarray' objects}
+      601    0.007    0.000    0.007    0.000 {method 'copy' of 'numpy.ndarray' objects}
+       50    0.006    0.000    0.006    0.000 {method 'argsort' of 'numpy.ndarray' objects}
+       50    0.004    0.000    0.127    0.003 /Users/USER/TRUE 开发/Fruit fly brain experiment/scripts/web_server.py:203(_publish)
+     1002    0.002    0.000    0.004    0.000 /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/numpy/core/_methods.py:93(_clip_dep_is_scalar_nan)
+      300    0.002    0.000    0.002    0.000 {built-in method numpy.core._multiarray_umath.count_nonzero}
+     8016    0.002    0.000    0.002    0.000 /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/numpy/core/_internal.py:249(__init__)
+      501    0.002    0.000    0.002    0.000 /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/numpy/core/_methods.py:108(_clip_dep_invoke_with_casting)
+       50    0.002    0.000    0.003    0.000 /Users/USER/TRUE 开发/Fruit fly brain experiment/scripts/web_server.py:110(encode_counts)
+      400    0.001    0.000    0.001    0.000 /Users/USER/TRUE 开发/Fruit fly brain experiment/scripts/web_server.py:88(describe)
+      501    0.001    0.000    0.002    0.000 /Users/USER/TRUE 开发/Fruit fly brain experiment/vendor/doomfly/doom/native.py:32(<listcomp>)
+      601    0.001    0.000    0.003    0.000 /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/numpy/core/fromnumeric.py:69(_wrapreduction)
+2604/1502    0.001    0.000    0.032    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+      501    0.001    0.000    0.008    0.000 /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/numpy/core/_methods.py:127(_clip)
+     1503    0.001    0.000    0.001    0.000 {built-in method numpy.asarray}
+
+

@@ -1,0 +1,98 @@
+[
+  {
+    "state": {
+      "sim_seconds": 175.3,
+      "running": true,
+      "real_time_factor": 0.6777695217212142,
+      "rss_mib": 221.125,
+      "mode": "pulse",
+      "packet_bytes": 65224,
+      "publication_ms": 1.5511249948758632,
+      "clients": 2
+    },
+    "views": [
+      {
+        "type": "view_metrics",
+        "frames": 11523,
+        "draw_calls": 4,
+        "fps": 6.66000666000666,
+        "visible": true,
+        "received_at_ms": 1789287084343.395
+      },
+      {
+        "type": "view_metrics",
+        "frames": 1396,
+        "draw_calls": 4,
+        "fps": 6.001200240095712,
+        "visible": true,
+        "received_at_ms": 1789287084757.641
+      }
+    ],
+    "system_cpu_percent": 26.8,
+    "available_memory_mib": 3535.09375
+  },
+  {
+    "state": {
+      "sim_seconds": 176.3,
+      "running": true,
+      "real_time_factor": 0.6614301315581715,
+      "rss_mib": 221.5,
+      "mode": "pulse",
+      "packet_bytes": 65206,
+      "publication_ms": 1.4785829989705235,
+      "clients": 2
+    },
+    "views": [
+      {
+        "type": "view_metrics",
+        "frames": 11532,
+        "draw_calls": 4,
+        "fps": 6.003602161320648,
+        "visible": true,
+        "received_at_ms": 1789287085842.696
+      },
+      {
+        "type": "view_metrics",
+        "frames": 1406,
+        "draw_calls": 4,
+        "fps": 6.6648893628101,
+        "visible": true,
+        "received_at_ms": 1789287086258.079
+      }
+    ],
+    "system_cpu_percent": 32.8,
+    "available_memory_mib": 3549.375
+  },
+  {
+    "state": {
+      "sim_seconds": 177.3,
+      "running": true,
+      "real_time_factor": 0.6567731086413804,
+      "rss_mib": 221.5,
+      "mode": "pulse",
+      "packet_bytes": 65014,
+      "publication_ms": 1.6575409972574562,
+      "clients": 2
+    },
+    "views": [
+      {
+        "type": "view_metrics",
+        "frames": 11542,
+        "draw_calls": 4,
+        "fps": 6.66800026670676,
+        "visible": true,
+        "received_at_ms": 1789287087342.1387
+      },
+      {
+        "type": "view_metrics",
+        "frames": 1416,
+        "draw_calls": 4,
+        "fps": 6.669334400400325,
+        "visible": true,
+        "received_at_ms": 1789287087757.3252
+      }
+    ],
+    "system_cpu_percent": 26.2,
+    "available_memory_mib": 3541.734375
+  }
+]

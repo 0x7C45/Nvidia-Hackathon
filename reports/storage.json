@@ -1,0 +1,11 @@
+{
+  "project_allocated_bytes": 2598514688,
+  "components_bytes": {
+    "environment": 826023936,
+    "raw_and_normalized_data": 1448771584,
+    "upstream_outputs": 290353152,
+    "reports": 790528
+  },
+  "disk_free_bytes": 72130019328,
+  "temporary_download_parts_remaining": []
+}

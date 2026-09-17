@@ -1,0 +1,20 @@
+{
+  "stage": "numerical-tests",
+  "started_at": "2026-09-13T03:47:12.044651+00:00",
+  "wall_seconds": 39.749715707992436,
+  "peak_rss_bytes": 278052864,
+  "swap_before_bytes": 551813120,
+  "swap_after_bytes": 551813120,
+  "returncode": 0,
+  "command": [
+    "/Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/test_connectome.py",
+    "tests/test_doom_reference.py",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "log": "/Users/USER/TRUE 开发/Fruit fly brain experiment/reports/logs/numerical-tests.log"
+}

@@ -1,0 +1,64 @@
+{
+  "scope": "Four sequential bright-field full-graph trials, 5 simulated seconds each; no browser connected to measured worker; existing viewer paused; one computing native worker",
+  "trials": [
+    {
+      "version": "before",
+      "sim_seconds": 5,
+      "wall_seconds": 4.099773957990692,
+      "real_time_factor": 1.2195794332159988,
+      "mean_publication_ms": 2.4993075194652192,
+      "packet_bytes": 333424,
+      "active_neurons": 9164,
+      "rss_mib": 422.0625
+    },
+    {
+      "version": "after",
+      "sim_seconds": 5,
+      "wall_seconds": 3.9991620000073453,
+      "real_time_factor": 1.2502619298720123,
+      "mean_publication_ms": 0.7865750006749295,
+      "packet_bytes": 55012,
+      "active_neurons": 9164,
+      "rss_mib": 435.921875
+    },
+    {
+      "version": "after",
+      "sim_seconds": 5,
+      "wall_seconds": 4.027999333993648,
+      "real_time_factor": 1.24131102947394,
+      "mean_publication_ms": 0.7959183005732484,
+      "packet_bytes": 55012,
+      "active_neurons": 9164,
+      "rss_mib": 460.96875
+    },
+    {
+      "version": "before",
+      "sim_seconds": 5,
+      "wall_seconds": 4.0864730840112315,
+      "real_time_factor": 1.223548986426227,
+      "mean_publication_ms": 2.5017933605704457,
+      "packet_bytes": 333424,
+      "active_neurons": 9164,
+      "rss_mib": 437.234375
+    }
+  ],
+  "means": {
+    "before": {
+      "wall_seconds": 4.093123521000962,
+      "real_time_factor": 1.2215642098211128,
+      "mean_publication_ms": 2.5005504400178324,
+      "packet_bytes": 333424
+    },
+    "after": {
+      "wall_seconds": 4.013580667000497,
+      "real_time_factor": 1.2457864796729763,
+      "mean_publication_ms": 0.7912466506240889,
+      "packet_bytes": 55012
+    }
+  },
+  "wall_speedup": 1.0198184266369588,
+  "publication_speedup": 3.1602666981851297,
+  "packet_reduction_percent": 83.50088775852969,
+  "all_final_spikes_voltage_conductance_and_region_statistics_identical": true,
+  "native_kernel_unchanged": true
+}

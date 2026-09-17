@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.mimosa/
+.DS_Store
+vendor/
+reports/logs/
+web/node_modules/
+web/dist/
+web-data/
+experiments/body/
+artifacts/

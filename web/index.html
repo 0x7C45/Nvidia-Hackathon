@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0e12" />
+    <title>FLYLAB · 果蝇神经实验室</title>
+  </head>
+  <body>
+    <svg class="icon-defs" aria-hidden="true">
+      <defs>
+        <symbol id="i-play" viewBox="0 0 24 24">
+          <path d="m8 5 11 7-11 7Z" />
+        </symbol>
+        <symbol id="i-pause" viewBox="0 0 24 24">
+          <path d="M8 5v14M16 5v14" />
+        </symbol>
+        <symbol id="i-reset" viewBox="0 0 24 24">
+          <path d="M4 10a8 8 0 1 1 1.3 7M4 4v6h6" />
+        </symbol>
+        <symbol id="i-cycle" viewBox="0 0 24 24">
+          <path
+            d="M19 8a8 8 0 0 0-13-2L3 9m0-5v5h5M5 16a8 8 0 0 0 13 2l3-3m0 5v-5h-5"
+          />
+        </symbol>
+        <symbol id="i-sun" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="4" />
+          <path
+            d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"
+          />
+        </symbol>
+        <symbol id="i-left" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="8" />
+          <path d="M12 4v16M8 6v12M5 9v6" />
+        </symbol>
+        <symbol id="i-right" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="8" />
+          <path d="M12 4v16m4-14v12m3-9v6" />
+        </symbol>
+        <symbol id="i-pulse" viewBox="0 0 24 24">
+          <path d="M2 12h5l3-8 4 16 3-8h5" />
+        </symbol>
+        <symbol id="i-off" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="8" />
+          <path d="m6 6 12 12" />
+        </symbol>
+        <symbol id="i-fit" viewBox="0 0 24 24">
+          <path d="M8 3H3v5m13-5h5v5M3 16v5h5m8 0h5v-5" />
+          <circle cx="12" cy="12" r="3" />
+        </symbol>
+        <symbol id="i-layers" viewBox="0 0 24 24">
+          <path d="m3 8 9-5 9 5-9 5Zm0 5 9 5 9-5M3 18l9 5 9-5" />
+        </symbol>
+        <symbol id="i-expand" viewBox="0 0 24 24">
+          <path d="M8 3H3v5m13-5h5v5M3 16v5h5m8 0h5v-5" />
+        </symbol>
+        <symbol id="i-cross" viewBox="0 0 24 24">
+          <path d="m6 6 12 12M6 18 18 6" />
+        </symbol>
+        <symbol id="i-cell" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="4" />
+          <path
+            d="m9 9-5-5m11 5 5-5M8 12H2m14 0h6M9 15l-5 5m11-5 5 5M12 8V2m0 14v6"
+          />
+        </symbol>
+        <symbol id="i-arrow" viewBox="0 0 24 24">
+          <path d="M5 19 19 5M7 5h12v12" />
+        </symbol>
+        <symbol id="i-eye" viewBox="0 0 24 24">
+          <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z" />
+          <circle cx="12" cy="12" r="3" />
+        </symbol>
+      </defs>
+    </svg>
+    <header class="app-header">
+      <a class="brand" href="/" aria-label="果蝇神经实验室首页"
+        ><svg class="brand-mark" viewBox="0 0 32 32">
+          <path d="M16 7v18M7 11l18 10M7 21l18-10" />
+          <circle cx="16" cy="16" r="4" />
+          <circle cx="16" cy="5" r="2" />
+          <circle cx="6" cy="10" r="2" />
+          <circle cx="26" cy="10" r="2" />
+          <circle cx="6" cy="22" r="2" />
+          <circle cx="26" cy="22" r="2" />
+          <circle cx="16" cy="27" r="2" /></svg
+        ><span>FLYLAB</span><span class="brand-divider"></span>
+        <h1>果蝇神经实验室</h1></a
+      >
+      <div class="dataset-meta">
+        <span>MaleCNS <b>v1.0</b></span
+        ><span><b>166,700</b> 神经元</span><span><b>25.58M</b> 连接</span>
+      </div>
+      <div class="header-actions">
+        <div class="connection-pill">
+          <i id="live-dot"></i><span id="connection-label">连接模型</span>
+        </div>
+        <button id="about-open" class="help-button" aria-label="关于模型">
+          ?
+        </button>
+      </div>
+    </header>
+    <main class="lab-layout">
+      <aside class="sidebar">
+        <div class="sidebar-tabs" role="tablist" aria-label="实验控制">
+          <button
+            data-panel="stimulus"
+            class="selected"
+            role="tab"
+            aria-selected="true"
+          >
+            刺激</button
+          ><button data-panel="regions" role="tab" aria-selected="false">
+            脑区</button
+          ><button data-panel="cells" role="tab" aria-selected="false">
+            细胞
+          </button>
+        </div>
+        <div class="sidebar-content">
+          <section id="panel-stimulus" class="tab-panel">
+            <div class="section-kicker">VISUAL INPUT</div>
+            <h2>光刺激</h2>
+            <p class="section-description">改变输入，观察整个网络的回应。</p>
+            <div id="retina-preview" class="retina-preview">
+              <div class="field-grid"></div>
+              <div class="eye eye-left"></div>
+              <div class="eye eye-right"></div>
+              <span class="field-divider"></span
+              ><span class="field-cross">+</span>
+              <div class="retina-label">
+                <span>LEFT</span><span>视野示意</span><span>RIGHT</span>
+              </div>
+            </div>
+            <div class="control-heading">
+              <span>刺激模式</span><span class="micro-label">01—06</span>
+            </div>
+            <div class="stimulus-options" aria-label="刺激模式">
+              <button data-mode="cycle" class="selected">
+                <svg class="icon"><use href="#i-cycle" /></svg>自动轮播</button
+              ><button data-mode="bright">
+                <svg class="icon"><use href="#i-sun" /></svg>全视野光</button
+              ><button data-mode="left">
+                <svg class="icon"><use href="#i-left" /></svg>左侧光</button
+              ><button data-mode="right">
+                <svg class="icon"><use href="#i-right" /></svg>右侧光</button
+              ><button data-mode="pulse">
+                <svg class="icon"><use href="#i-pulse" /></svg>脉冲光</button
+              ><button data-mode="none">
+                <svg class="icon"><use href="#i-off" /></svg>关闭驱动
+              </button>
+            </div>
+            <div class="intensity-control">
+              <div class="slider-label">
+                <label for="intensity">光强</label
+                ><output id="intensity-value">100<span>%</span></output>
+              </div>
+              <input
+                id="intensity"
+                type="range"
+                min="0"
+                max="100"
+                value="100"
+                aria-label="光刺激强度"
+              />
+              <div class="slider-ticks">
+                <span>0</span><span>50</span><span>100</span>
+              </div>
+            </div>
+            <div class="stimulus-note">
+              <span class="note-dot"></span>
+              <p id="phase-note">每 2 个模拟秒切换一次输入</p>
+            </div>
+            <div class="baseline-note">
+              <svg class="icon"><use href="#i-cell" /></svg
+              ><span
+                >固定权重基线<small>当前展示刺激响应，学习尚未开启</small></span
+              >
+            </div>
+          </section>
+          <section id="panel-regions" class="tab-panel" hidden>
+            <div class="section-kicker">ANATOMY</div>
+            <h2>脑区观察</h2>
+            <p class="section-description">
+              按颜色辨认归属，单独查看感兴趣的部分。
+            </p>
+            <div id="regions"></div>
+            <p class="subtle-note">显隐仅影响画面。全部神经元始终参与计算。</p>
+            <div class="anatomy-summary">
+              <strong>114</strong><span>官方重建的脑区外形</span>
+            </div>
+          </section>
+          <section id="panel-cells" class="tab-panel" hidden>
+            <div class="section-kicker">NEURON INSPECTOR</div>
+            <h2>细胞检查</h2>
+            <div id="cell-empty" class="cell-empty">
+              <svg class="icon"><use href="#i-cell" /></svg
+              ><strong>在脑图中点选一个细胞</strong>
+              <p>查看它的放电、电位与真实分支。</p>
+            </div>
+            <div id="neuron-card" class="neuron-card" hidden>
+              <div class="neuron-card-top">
+                <span>SELECTED NEURON</span
+                ><button
+                  id="neuron-close"
+                  class="plain-icon"
+                  aria-label="清除选中神经元"
+                >
+                  <svg class="icon"><use href="#i-cross" /></svg>
+                </button>
+              </div>
+              <h3 id="neuron-type">—</h3>
+              <div class="neuron-id">BODY <span id="neuron-id">—</span></div>
+              <div class="neuron-measures">
+                <div>
+                  <strong id="neuron-spikes">—</strong><span>窗口内放电</span>
+                </div>
+                <div>
+                  <strong id="neuron-voltage">—</strong><span>电位 / mV</span>
+                </div>
+              </div>
+              <p id="neuron-detail"></p>
+              <div id="skeleton-status">读取官方骨架</div>
+              <button id="focus-neuron" class="focus-neuron">
+                <svg class="icon"><use href="#i-fit" /></svg>聚焦此细胞
+              </button>
+            </div>
+            <div class="active-list-heading">
+              <span>近期活跃细胞</span><small>部分高频细胞</small>
+            </div>
+            <div id="active-list" class="active-list">
+              <p class="subtle-note">等待神经活动数据</p>
+            </div>
+          </section>
+        </div>
+        <div class="transport">
+          <div class="transport-top">
+            <span class="micro-label">SIMULATION</span
+            ><span id="sim-time">00:00.0</span>
+          </div>
+          <div class="run-controls">
+            <button id="run-toggle" class="primary-button" disabled>
+              <svg class="icon"><use id="run-symbol" href="#i-play" /></svg
+              ><span id="run-label">连接模型中</span></button
+            ><button
+              id="reset"
+              class="reset-button"
+              title="重置全部神经状态"
+              aria-label="重置实验"
+            >
+              <svg class="icon"><use href="#i-reset" /></svg>
+            </button>
+          </div>
+          <div class="transport-foot">
+            <i></i><span id="coverage">读取完整连接组</span>
+          </div>
+        </div>
+      </aside>
+      <section class="brain-panel" aria-label="三维果蝇大脑与神经活动">
+        <div class="scene-header">
+          <div>
+            <span class="scene-kicker">NEURAL ACTIVITY</span
+            ><span class="scene-subtitle">全连接组观察</span>
+          </div>
+          <div class="view-tabs" role="group" aria-label="三维视角">
+            <button data-view="all" class="selected" aria-pressed="true">
+              全神经系统</button
+            ><button data-view="brain" aria-pressed="false">脑部</button
+            ><button data-view="vnc" aria-pressed="false">腹神经索</button>
+          </div>
+          <button
+            id="fullscreen-toggle"
+            class="plain-icon"
+            title="全屏查看"
+            aria-label="全屏查看大脑"
+          >
+            <svg class="icon"><use href="#i-expand" /></svg>
+          </button>
+        </div>
+        <div id="brain-canvas"></div>
+        <div id="brain-loading" class="brain-loading">
+          <div class="loading-cell"><span></span><i></i></div>
+          <strong>正在装载神经系统</strong
+          ><span id="loading-detail">读取真实空间坐标</span>
+        </div>
+        <div
+          id="canvas-legend"
+          class="canvas-legend"
+          aria-label="脑区颜色图例"
+        ></div>
+        <div class="canvas-tools">
+          <button id="home-view" title="适应视野" aria-label="还原视角">
+            <svg class="icon"><use href="#i-fit" /></svg></button
+          ><button
+            id="rotate-toggle"
+            aria-pressed="false"
+            title="缓慢旋转"
+            aria-label="切换缓慢旋转"
+          >
+            <svg class="icon"><use href="#i-cycle" /></svg></button
+          ><button
+            id="anatomy-toggle"
+            aria-pressed="true"
+            class="selected"
+            title="显示脑区外形"
+            aria-label="切换脑区外形"
+          >
+            <svg class="icon"><use href="#i-layers" /></svg></button
+          ><button
+            id="active-only"
+            aria-pressed="false"
+            title="仅显示放电细胞"
+            aria-label="仅看放电"
+          >
+            <svg class="icon"><use href="#i-eye" /></svg>
+          </button>
+        </div>
+        <div class="scene-scale">
+          <span class="canvas-scale"><span></span>100 μm</span
+          ><span class="gesture-hint"
+            >拖动旋转<span>·</span>滚动缩放<span>·</span>点选检查</span
+          >
+        </div>
+        <div class="signal-dock">
+          <div class="live-readout">
+            <span><i></i><span id="window-label">活跃神经元 · 100 ms</span></span>
+            <div>
+              <strong id="active-count">—</strong
+              ><small id="population-share">—</small>
+            </div>
+          </div>
+          <div class="activity-plot">
+            <div class="plot-caption">
+              <span>活动轨迹</span><span>最近 12 个模拟秒</span>
+            </div>
+            <svg
+              id="activity-chart"
+              viewBox="0 0 320 86"
+              preserveAspectRatio="none"
+              aria-label="活跃神经元数量曲线"
+            >
+              <defs>
+                <linearGradient id="areaGradient" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#c2ee94" stop-opacity=".15" />
+                  <stop offset="100%" stop-color="#c2ee94" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+              <path class="chart-grid" d="M0 16H320M0 44H320M0 72H320" />
+              <path id="chart-area" fill="url(#areaGradient)" />
+              <path
+                id="chart-line"
+                fill="none"
+                stroke="#bedf9e"
+                stroke-width="1.5"
+              />
+            </svg>
+            <div class="chart-footer">
+              <span id="chart-start">0 s</span><span id="chart-end">0 s</span>
+            </div>
+          </div>
+          <div class="speed-readout">
+            <span>模拟速度</span><strong id="speed">—</strong
+            ><small>神经时间 / 真实时间</small>
+          </div>
+        </div>
+        <div class="scene-footer">
+          <span id="anatomy-status">装载官方重建外形</span
+          ><span id="resource-note">本地计算</span
+          ><button id="source-open" class="text-button">
+            模型与数据 <svg class="icon"><use href="#i-arrow" /></svg>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="about-dialog">
+      <button id="about-close" class="dialog-close" aria-label="关闭说明">
+        ×
+      </button>
+      <div class="eyebrow">ABOUT THIS EXPERIMENT</div>
+      <h2>真实接线，可运行的模型。</h2>
+      <p>
+        这里使用 Google Research、Janelia 等机构发布的 MaleCNS v1.0 连接组。全部
+        166,700 个神经元参与计算，网页接收模拟器每 100 ms
+        神经时间内的实际放电计数。
+      </p>
+      <h3>三维画面来自哪里？</h3>
+      <p>
+        优先使用官方胞体及通向胞体的坐标；没有这些坐标时，使用该细胞官方骨架上的真实锚点。骨架锚点表示神经元所在位置，不是推测出的胞体。脑区外形来自官方分区重建，点选后显示该神经元的完整骨架。
+      </p>
+      <p>
+        点的颜色按原始神经元类别归属分组；跨区投射单独标色。脑区外形保留官方名称，并简化显示用的表面细节。发光是放电计数的显示效果，不表示细胞内部另有传播模型。
+      </p>
+      <h3>它现在能学习吗？</h3>
+      <p>
+        当前运行固定权重 LIF
+        基线，学习尚未开启。赛车学习需要另外设计感觉输入、动作读出、奖励与可塑性规则，并通过对照实验确认训练有效。
+      </p>
+      <div class="dialog-links">
+        <a
+          href="https://male-cns.janelia.org/download/"
+          target="_blank"
+          rel="noreferrer"
+          >MaleCNS 官方数据 ↗</a
+        ><a
+          href="https://github.com/nftechie/doomfly/tree/71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33"
+          target="_blank"
+          rel="noreferrer"
+          >模型来源 ↗</a
+        >
+      </div>
+      <small
+        >数据：CC BY 4.0 · HHMI Janelia / Cambridge / MRC LMB / Google
+        Research<br />网页和模拟均在本机运行。首次查看某个神经元骨架时会从官方源下载并缓存在本地。</small
+      >
+    </dialog>
+    <div id="toast" role="status" hidden></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

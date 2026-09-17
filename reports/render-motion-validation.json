@@ -1,0 +1,61 @@
+{
+  "action": "UI automatic rotation; all 114 surfaces and 166700 locations; no cell selected; neural simulation paused",
+  "samples": [
+    {
+      "sim_seconds": 55.5,
+      "running": false,
+      "views": [
+        {
+          "type": "view_metrics",
+          "frames": 1018,
+          "draw_calls": 4,
+          "fps": 59.99200106640529,
+          "visible": true,
+          "received_at_ms": 1789286884843.773
+        }
+      ]
+    },
+    {
+      "sim_seconds": 55.5,
+      "running": false,
+      "views": [
+        {
+          "type": "view_metrics",
+          "frames": 1108,
+          "draw_calls": 4,
+          "fps": 59.99600026688727,
+          "visible": true,
+          "received_at_ms": 1789286886343.6292
+        }
+      ]
+    },
+    {
+      "sim_seconds": 55.5,
+      "running": false,
+      "views": [
+        {
+          "type": "view_metrics",
+          "frames": 1198,
+          "draw_calls": 4,
+          "fps": 60.02000666888963,
+          "visible": true,
+          "received_at_ms": 1789286887843.5352
+        }
+      ]
+    },
+    {
+      "sim_seconds": 55.5,
+      "running": false,
+      "views": [
+        {
+          "type": "view_metrics",
+          "frames": 1288,
+          "draw_calls": 4,
+          "fps": 59.952038369185544,
+          "visible": true,
+          "received_at_ms": 1789286889344.664
+        }
+      ]
+    }
+  ]
+}

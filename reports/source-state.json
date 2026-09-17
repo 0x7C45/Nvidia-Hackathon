@@ -1,0 +1,8 @@
+{
+  "upstream_commit": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+  "source_files_changed": [],
+  "generated_tracked_outputs_changed": [
+    "outputs/doom/libneural.dylib.json",
+    "outputs/doom/malecns_v1/manifest.json"
+  ]
+}

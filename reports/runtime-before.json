@@ -1,0 +1,12 @@
+{
+  "direct": {
+    "sim_seconds": 5.0,
+    "wall_seconds": 3.9017170000006445,
+    "kernel_seconds": 3.8449450889747823
+  },
+  "web_engine": {
+    "sim_seconds": 5.0,
+    "wall_seconds": 4.364234207998379,
+    "error": null
+  }
+}

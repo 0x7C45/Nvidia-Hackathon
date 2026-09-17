@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
+export MPLBACKEND=Agg PYTHONUNBUFFERED=1
+export PYTHONPATH="$ROOT/vendor/doomfly"
+if [ ! -x "$ROOT/.venv/bin/python" ]; then
+  printf '%s\n' '缺少项目环境，请先按 README.md 安装依赖。' >&2
+  exit 1
+fi
+case "${1:-}" in
+  prepare) shift; exec "$ROOT/.venv/bin/python" "$ROOT/scripts/prepare.py" "$@" ;;
+  smoke|benchmark) exec "$ROOT/.venv/bin/python" "$ROOT/scripts/run_brain.py" "$@" ;;
+  web|race) shift; exec "$ROOT/.venv/bin/python" "$ROOT/scripts/web_server.py" "$@" ;;
+  body-demo) shift; exec "$ROOT/.venv/bin/python" "$ROOT/examples/body_loop.py" "$@" ;;
+  *) printf '%s\n' '用法: ./flybrain prepare | smoke | benchmark --wall-seconds 600 | web [--allow-origin ...] | race | body-demo'; exit 2 ;;
+esac

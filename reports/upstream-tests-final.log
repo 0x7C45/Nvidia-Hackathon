@@ -1,0 +1,137 @@
+...............                                                          [100%]
+=============================== warnings summary ===============================
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/units/unitsafefunctions.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+    import pkg_resources
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/pkg_resources/__init__.py:3146: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    declare_namespace(pkg)
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/parsing/statements.py:8: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    f"{alphas + nums}_").setResultsName('variable')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/parsing/statements.py:10: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    OP = Regex(r'(\+|\-|\*|/|//|%|\*\*|>>|<<|&|\^|\|)?=').setResultsName('operation')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/parsing/statements.py:11: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    EXPR = CharsNotIn('#').setResultsName('expression')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/parsing/statements.py:12: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    COMMENT = CharsNotIn('#').setResultsName('comment')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/equations/equations.py:69: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    string.ascii_letters + string.digits + '_').setResultsName('identifier')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/equations/equations.py:75: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    joinString=' ').setResultsName('expression')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/equations/equations.py:80: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    UNIT = Word(string.ascii_letters + string.digits + '*/.- ').setResultsName('unit')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/equations/equations.py:87: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    Suppress(')')).setResultsName('flags')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/equations/equations.py:96: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    Optional(FLAGS)).setResultsName(PARAMETER)
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/equations/equations.py:101: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    UNIT + Optional(FLAGS)).setResultsName(SUBEXPRESSION)
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/equations/equations.py:107: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    Optional(FLAGS)).setResultsName(DIFFERENTIAL_EQUATION)
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/Cython/Distutils/old_build_ext.py:15: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+    from distutils.dep_util import newer, newer_group
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:208: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    f"{string.ascii_letters + string.digits}_").setResultsName('identifier')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:211: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    EXPRESSION = restOfLine.setResultsName('expression')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:215: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    EXPRESSION).setResultsName('statement')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:218: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    OUTPUT = Group(Suppress(Literal('x_new')) + Suppress('=') + EXPRESSION).setResultsName('output')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:229: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parsed = ExplicitStateUpdater.DESCRIPTION.parseString(description,
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/pyparsing/util.py:466: PyparsingDeprecationWarning: 'parseAll' argument is deprecated, use 'parse_all'
+    return fn(self, *args, **kwargs)
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/groups/neurongroup.py:42: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    f"{string.ascii_letters + string.digits}_").setResultsName('identifier')
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-dense]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/__init__.py:85: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    if not LooseVersion(module.__version__) >= LooseVersion(version):
+
+tests/test_doom_reference.py: 12 warnings
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/equations/equations.py:145: PyparsingDeprecationWarning: 'scanString' deprecated - use 'scan_string'
+    parse_result = list(IDENTIFIER.scanString(identifier))
+
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[0.1-native]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[10.0-dense]
+tests/test_doom_reference.py::test_kernel_against_brian2_with_refractory_inputs[10.0-native]
+  /Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/lib/python3.11/site-packages/brian2/groups/neurongroup.py:58: PyparsingDeprecationWarning: 'scanString' deprecated - use 'scan_string'
+    parse_result = list(IDENTIFIER.scanString(event_name))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+15 passed, 62 warnings in 2.20s

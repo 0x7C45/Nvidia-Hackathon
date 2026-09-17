@@ -1,0 +1,16 @@
+{
+  "stage": "import",
+  "started_at": "2026-09-13T03:52:43.348538+00:00",
+  "wall_seconds": 22.305775125001674,
+  "peak_rss_bytes": 1976483840,
+  "swap_before_bytes": 551813120,
+  "swap_after_bytes": 551813120,
+  "returncode": 0,
+  "command": [
+    "/Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/bin/python",
+    "-m",
+    "doom.connectome",
+    "malecns_v1"
+  ],
+  "log": "/Users/USER/TRUE 开发/Fruit fly brain experiment/reports/logs/import.log"
+}

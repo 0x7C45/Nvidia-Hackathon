@@ -1,0 +1,15 @@
+{
+  "stage": "kernel-build",
+  "started_at": "2026-09-13T03:53:08.742244+00:00",
+  "wall_seconds": 0.5877979170036269,
+  "peak_rss_bytes": 89178112,
+  "swap_before_bytes": 551813120,
+  "swap_after_bytes": 551813120,
+  "returncode": 0,
+  "command": [
+    "/Users/USER/TRUE 开发/Fruit fly brain experiment/.venv/bin/python",
+    "-m",
+    "doom.build_kernel"
+  ],
+  "log": "/Users/USER/TRUE 开发/Fruit fly brain experiment/reports/logs/kernel-build.log"
+}

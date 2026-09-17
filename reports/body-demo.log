@@ -1,0 +1,4 @@
+{"session": "5ebfb901-75d9-4b32-8c98-01b5668c5f66", "journal": "/api/v1/body/sessions/5ebfb901-75d9-4b32-8c98-01b5668c5f66/events"}
+{"step": 1, "sim_ms": 20.0, "actions": {"turn": 0.0, "forward": 0.0}, "position": 0.0, "reward_applied_to_weights": false}
+{"step": 2, "sim_ms": 40.0, "actions": {"turn": 0.0, "forward": 0.09063462346100909}, "position": 0.0018126924692201819, "reward_applied_to_weights": false}
+{"step": 3, "sim_ms": 60.0, "actions": {"turn": 0.0, "forward": 0.07420535352117129}, "position": 0.003296799539643608, "reward_applied_to_weights": false}

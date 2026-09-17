@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "sim_seconds_per_model": 6,
+  "neural_time_step_ms": 0.1,
+  "compared_observations": 600,
+  "neurons": 166700,
+  "phases": [
+    "none",
+    "dark",
+    "bright",
+    "left",
+    "right",
+    "pulse"
+  ],
+  "all_spike_counts_and_states_identical": true,
+  "step_wall_seconds": {
+    "reference": 4.1523808379570255,
+    "candidate": 4.509581294070813
+  },
+  "kernel_wall_seconds": {
+    "reference": 4.070760492017143,
+    "candidate": 4.425338375935098
+  },
+  "step_speedup": 0.9207907712888037,
+  "adopted": false,
+  "reason": "No speed improvement under active stimuli; original native kernel retained."
+}

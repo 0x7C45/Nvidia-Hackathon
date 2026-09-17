@@ -1,0 +1,427 @@
+{
+  "before": {
+    "state": {
+      "type": "state",
+      "sequence": 121,
+      "sim_seconds": 12.0,
+      "window_ms": 100.0,
+      "phase": "bright",
+      "real_time_factor": 1.2751569622175458,
+      "average_real_time_factor": 1.2369310299450613,
+      "active_neurons": 9195,
+      "active_located": 9195,
+      "spikes": 63547,
+      "total_spikes": 5469457,
+      "neurons": 166700,
+      "edges": 25582938,
+      "learning": false,
+      "rss_mib": 424.078125,
+      "regions": [
+        {
+          "id": 0,
+          "active": 0,
+          "spikes": 0
+        },
+        {
+          "id": 1,
+          "active": 9181,
+          "spikes": 63502
+        },
+        {
+          "id": 2,
+          "active": 1,
+          "spikes": 1
+        },
+        {
+          "id": 3,
+          "active": 13,
+          "spikes": 44
+        },
+        {
+          "id": 4,
+          "active": 0,
+          "spikes": 0
+        }
+      ],
+      "top": [
+        {
+          "index": 122750,
+          "id": "238251",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "L",
+          "region": 1,
+          "located": true,
+          "position": [
+            334.33599853515625,
+            356.031982421875,
+            -27.072006225585938
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 14,
+          "rate_hz": 140.0
+        },
+        {
+          "index": 104001,
+          "id": "144647",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "R",
+          "region": 1,
+          "located": true,
+          "position": [
+            -256.5119934082031,
+            390.8480224609375,
+            142.39999389648438
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 119067,
+          "id": "200879",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "L",
+          "region": 1,
+          "located": true,
+          "position": [
+            345.5999755859375,
+            349.3760070800781,
+            -93.1199951171875
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 119042,
+          "id": "200714",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "L",
+          "region": 1,
+          "located": true,
+          "position": [
+            335.3599853515625,
+            330.9440002441406,
+            -61.376007080078125
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 98505,
+          "id": "133997",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "R",
+          "region": 1,
+          "located": true,
+          "position": [
+            -330.239990234375,
+            314.55999755859375,
+            -84.92799377441406
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 119046,
+          "id": "200734",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "R",
+          "region": 1,
+          "located": true,
+          "position": [
+            -314.8800048828125,
+            338.11199951171875,
+            56.384002685546875
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 119052,
+          "id": "200775",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "L",
+          "region": 1,
+          "located": true,
+          "position": [
+            290.81597900390625,
+            383.1679992675781,
+            -160.70401000976562
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 98496,
+          "id": "133979",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "R",
+          "region": 1,
+          "located": true,
+          "position": [
+            -328.7040100097656,
+            324.79998779296875,
+            -36.287994384765625
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        }
+      ],
+      "packet_bytes": 55198,
+      "publication_ms": 0.7613330089952797,
+      "published_at_ms": 1789286386667.412,
+      "running": false,
+      "mode": "cycle",
+      "intensity": 1.0,
+      "clients": 1,
+      "error": null,
+      "revision": 125,
+      "reset_count": 0
+    },
+    "views": [
+      {
+        "type": "view_metrics",
+        "frames": 7,
+        "draw_calls": 4,
+        "fps": 0.0,
+        "visible": true,
+        "received_at_ms": 1789286434374.4587
+      }
+    ]
+  },
+  "after": {
+    "state": {
+      "type": "state",
+      "sequence": 121,
+      "sim_seconds": 12.0,
+      "window_ms": 100.0,
+      "phase": "bright",
+      "real_time_factor": 1.2751569622175458,
+      "average_real_time_factor": 1.2369310299450613,
+      "active_neurons": 9195,
+      "active_located": 9195,
+      "spikes": 63547,
+      "total_spikes": 5469457,
+      "neurons": 166700,
+      "edges": 25582938,
+      "learning": false,
+      "rss_mib": 424.078125,
+      "regions": [
+        {
+          "id": 0,
+          "active": 0,
+          "spikes": 0
+        },
+        {
+          "id": 1,
+          "active": 9181,
+          "spikes": 63502
+        },
+        {
+          "id": 2,
+          "active": 1,
+          "spikes": 1
+        },
+        {
+          "id": 3,
+          "active": 13,
+          "spikes": 44
+        },
+        {
+          "id": 4,
+          "active": 0,
+          "spikes": 0
+        }
+      ],
+      "top": [
+        {
+          "index": 122750,
+          "id": "238251",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "L",
+          "region": 1,
+          "located": true,
+          "position": [
+            334.33599853515625,
+            356.031982421875,
+            -27.072006225585938
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 14,
+          "rate_hz": 140.0
+        },
+        {
+          "index": 104001,
+          "id": "144647",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "R",
+          "region": 1,
+          "located": true,
+          "position": [
+            -256.5119934082031,
+            390.8480224609375,
+            142.39999389648438
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 119067,
+          "id": "200879",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "L",
+          "region": 1,
+          "located": true,
+          "position": [
+            345.5999755859375,
+            349.3760070800781,
+            -93.1199951171875
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 119042,
+          "id": "200714",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "L",
+          "region": 1,
+          "located": true,
+          "position": [
+            335.3599853515625,
+            330.9440002441406,
+            -61.376007080078125
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 98505,
+          "id": "133997",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "R",
+          "region": 1,
+          "located": true,
+          "position": [
+            -330.239990234375,
+            314.55999755859375,
+            -84.92799377441406
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 119046,
+          "id": "200734",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "R",
+          "region": 1,
+          "located": true,
+          "position": [
+            -314.8800048828125,
+            338.11199951171875,
+            56.384002685546875
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 119052,
+          "id": "200775",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "L",
+          "region": 1,
+          "located": true,
+          "position": [
+            290.81597900390625,
+            383.1679992675781,
+            -160.70401000976562
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        },
+        {
+          "index": 98496,
+          "id": "133979",
+          "type": "R1-R6",
+          "class": "visual",
+          "superclass": "ol_sensory",
+          "side": "R",
+          "region": 1,
+          "located": true,
+          "position": [
+            -328.7040100097656,
+            324.79998779296875,
+            -36.287994384765625
+          ],
+          "location_kind": "\u5b98\u65b9\u9aa8\u67b6\u951a\u70b9",
+          "spikes": 13,
+          "rate_hz": 130.0
+        }
+      ],
+      "packet_bytes": 55198,
+      "publication_ms": 0.7613330089952797,
+      "published_at_ms": 1789286386667.412,
+      "running": false,
+      "mode": "cycle",
+      "intensity": 1.0,
+      "clients": 1,
+      "error": null,
+      "revision": 125,
+      "reset_count": 0
+    },
+    "views": [
+      {
+        "type": "view_metrics",
+        "frames": 7,
+        "draw_calls": 4,
+        "fps": 0.0,
+        "visible": true,
+        "received_at_ms": 1789286437374.2422
+      }
+    ]
+  },
+  "paused_frame_delta": 0
+}
